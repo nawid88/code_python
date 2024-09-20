@@ -43,6 +43,7 @@ else:
 
 print(f"{num1} {operation}{b} {a} {num2} is equal to {result}")
 print("hello")
+print("hello")
 
 
 
