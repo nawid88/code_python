@@ -1,12 +1,15 @@
 def palindrome(word):
-    word = list(word)
-    reverseWord = []
-    for i in range(-1, -1*len(word)-1, -1):
-        reverseWord += word[i]
-    if reverseWord == word:
+    if len(word) <= 1:
         return True
     else:
-        return False
+        word = list(word)
+        reverseWord = []
+        for i in range(-1, -1*len(word)-1, -1):
+            reverseWord += word[i]
+        if reverseWord == word:
+            return True
+        else:
+            return False
     
 
 
